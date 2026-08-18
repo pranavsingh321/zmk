@@ -173,7 +173,7 @@
         &tup     &kp PAGE_UP    &kp UP    &msc SCRL_LEFT  &kp LBRC    &kp RBRC  &msc SCRL_RIGHT  &mmv MOVE_UP    &msc SCRL_UP     &tup
         &tright  &kp LEFT       &kp DOWN  &kp RIGHT       &kp LBKT    &kp RBKT  &mmv MOVE_LEFT   &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &tleft
 &tleft  &tdown   &kp PAGE_DOWN  &mkp MB4  &mkp LCLK       &kp LPAR    &kp RPAR  &mkp RCLK        &mkp MB5        &msc SCRL_DOWN   &tdown  &tright
-                                &trans    &trans          &trans      &mo 3     &none            &trans
+                                &trans    &trans          &trans      &mo 3     &kp LSHFT        &trans
             >;
         };
 
