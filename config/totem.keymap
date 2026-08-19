@@ -87,7 +87,7 @@
         close: close {
             compatible = "zmk,behavior-tap-dance";
             #binding-cells = <0>;
-            bindings = <&close_app_win>, <&close_app_mac>;
+            bindings = <&kp LA(F4)>, <&kp LG(F4)>;
 
             label = "CLOSE";
         };
@@ -95,7 +95,7 @@
         show_desktop: show_desktop {
             compatible = "zmk,behavior-tap-dance";
             #binding-cells = <0>;
-            bindings = <&show_desktop_win>, <&show_desktop_mac>;
+            bindings = <&kp LG(D)>, <&kp LG(F3)>;
 
             label = "SHOW_DESKTOP";
         };
@@ -103,7 +103,7 @@
         screenshot: screenshot {
             compatible = "zmk,behavior-tap-dance";
             #binding-cells = <0>;
-            bindings = <&screenshot_win>, <&screenshot_mac>;
+            bindings = <&kp LG(LS(S))>, <&kp LG(LS(NUMBER_3))>;
 
             label = "SCREENSHOT";
         };
@@ -166,48 +166,6 @@
             #binding-cells = <0>;
             bindings = <&kp LC(B) &kp LEFT_BRACKET>;
             label = "TMUXMODE";
-        };
-
-        close_app_win: close_app_win {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&kp LA(F4)>;
-            label = "CLOSE_APP_WIN";
-        };
-
-        close_app_mac: close_app_mac {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&kp LG(F4)>;
-            label = "CLOSE_APP_MAC";
-        };
-
-        show_desktop_win: show_desktop_win {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&kp LG(D)>;
-            label = "SHOW_DESKTOP_WIN";
-        };
-
-        show_desktop_mac: show_desktop_mac {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&kp LG(F3)>;
-            label = "SHOW_DESKTOP_MAC";
-        };
-
-        screenshot_win: screenshot_win {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&kp LG(LS(S))>;
-            label = "SCREENSHOT_WIN";
-        };
-
-        screenshot_mac: screenshot_mac {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&kp LG(LS(NUMBER_3))>;
-            label = "SCREENSHOT_MAC";
         };
 
         parenthesis: brakets {
