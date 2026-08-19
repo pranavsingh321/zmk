@@ -114,6 +114,7 @@
             bindings = <&kp LC(DELETE)>, <&kp LA(DELETE)>;
 
             label = "DELETE_AFTER_CURSOR";
+            tapping-term-ms = <250>;
         };
 
         delete_before_cursor: delete_before_cursor {
@@ -122,6 +123,7 @@
             bindings = <&kp LC(BACKSPACE)>, <&kp LA(BACKSPACE)>;
 
             label = "DELETE_BEFORE_CURSOR";
+            tapping-term-ms = <250>;
         };
     };
 
