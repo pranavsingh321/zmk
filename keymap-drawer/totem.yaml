@@ -27,12 +27,12 @@ layers:
   - ['&tleft', '&tdown', PAGE DOWN, '&mkp MB4', '&mkp LCLK', (, ), '&mkp RCLK', '&mkp MB5', '&msc SCRL_DOWN']
   - - '&tdown'
     - '&tright'
-    - {t: ▽, type: trans}
+    - ''
     - {type: held}
-    - {t: ▽, type: trans}
     - ''
     - ''
-    - {t: ▽, type: trans}
+    - ''
+    - ''
   SYM:
   - ['~', ., '=', <, '>', \, '7', '8', '9', '!']
   - ['*', +, '-', '"', '''', /, '4', '5', '6', '0']
@@ -48,15 +48,15 @@ layers:
   ADJ:
   - ['', '', '', '', '', '&close', F9, F10, F11, F12]
   - ['', LEFT ALT, LEFT CONTROL, LEFT SHIFT, LEFT META, '&show_desktop', F5, F6, F7, F8]
-  - ['', '&sys_reset', '', '', '', '', '&screenshot', F1, F2, F3]
+  - ['', '', '', '', '', '', '&screenshot', F1, F2, F3]
   - - F4
     - ''
     - {type: held}
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
   BT:
   - - {t: BT, h: '0'}
     - {t: BT, h: '1'}
