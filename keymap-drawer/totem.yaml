@@ -20,7 +20,7 @@ layers:
     - SPACE
     - RET
     - SYM
-    - ESCAPE
+    - {t: ESCAPE, h: BT}
   NAVI:
   - ['&tup', PAGE UP, UP, '&msc SCRL_LEFT', '{', '}', '&msc SCRL_RIGHT', '&mmv MOVE_UP', '&msc SCRL_UP', '&tup']
   - ['&tright', LEFT, DOWN, RIGHT, '[', ']', '&mmv MOVE_LEFT', '&mmv MOVE_DOWN', '&mmv MOVE_RIGHT', '&tleft']
@@ -74,14 +74,11 @@ layers:
     - ''
     - ''
     - ''
-    - {type: held}
-    - {type: held}
     - ''
     - ''
+    - ''
+    - {type: held}
 combos:
 - p: [33, 36]
   k: ADJ
   l: [BASE, NAVI, SYM, BT]
-- p: [34, 35]
-  k: BT
-  l: [BASE, NAVI, SYM, ADJ]
