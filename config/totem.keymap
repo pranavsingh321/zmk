@@ -34,6 +34,7 @@
         compatible = "zmk,combos";
 
         // Both middle thumb keys: momentarily access the adjust layer.
+
         combo_adj_layer: combo_adj_layer {
             timeout-ms = <100>;
             require-prior-idle-ms = <150>;
@@ -43,6 +44,7 @@
         };
 
         // Both inner thumb keys: momentarily access the Bluetooth layer.
+
         combo_bt_layer: combo_bt_layer {
             timeout-ms = <100>;
             require-prior-idle-ms = <150>;
@@ -264,7 +266,7 @@
         &tup     &kp PAGE_UP    &kp UP    &msc SCRL_LEFT  &kp LBRC    &kp RBRC  &msc SCRL_RIGHT  &mmv MOVE_UP    &msc SCRL_UP     &tup
         &tright  &kp LEFT       &kp DOWN  &kp RIGHT       &kp LBKT    &kp RBKT  &mmv MOVE_LEFT   &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &tleft
 &tleft  &tdown   &kp PAGE_DOWN  &mkp MB4  &mkp LCLK       &kp LPAR    &kp RPAR  &mkp RCLK        &mkp MB5        &msc SCRL_DOWN   &tdown  &tright
-                                &trans    &trans          &trans      &mo 3     &kp LSHFT        &trans
+                                &trans    &trans          &trans      &mo 3     &none            &trans
             >;
         };
 
@@ -313,15 +315,16 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-            &none         &none         &delete_after_cursor   &none             &none                &close         &kp F9  &kp F10  &kp F11  &kp F12
-            &none         &none         &delete_before_cursor  &none             &none                &show_desktop  &kp F5  &kp F6   &kp F7   &kp F8
-&none       &sys_reset    &none          &none                  &none             &none                &screenshot    &kp F1  &kp F2   &kp F3   &kp F4   &none
-                                        &trans                 &trans            &trans               &trans         &trans  &trans
+       &none       &none  &none   &none   &none     &close         &kp F9  &kp F10  &kp F11  &kp F12
+       &none       &none  &none   &none   &none     &show_desktop  &kp F5  &kp F6   &kp F7   &kp F8
+&none  &sys_reset  &none  &none   &none   &none     &screenshot    &kp F1  &kp F2   &kp F3   &kp F4   &none
+                          &trans  &trans  &trans    &trans         &trans  &trans
             >;
         };
 
         // ▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄
         // ▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄
+
         bt_layer {
             // ┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
 
@@ -339,10 +342,10 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-            &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4       &kp C_VOLUME_DOWN  &kp C_VOLUME_UP  &kp C_MUTE  &kp C_BRI_UP  &kp C_BRI_DEC
-            &none         &none         &bt BT_CLR    &bt BT_CLR_ALL &none             &none              &none            &kp C_PLAY_PAUSE &none       &none
-&none       &none         &none          &none         &none          &none             &none              &none            &none         &none       &none          &none
-                                         &none         &none          &none             &none              &none            &none
+       &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3    &bt BT_SEL 4    &kp C_VOLUME_DOWN  &kp C_VOLUME_UP  &kp C_MUTE        &kp C_BRI_UP  &kp C_BRI_DEC
+       &none         &none         &bt BT_CLR    &bt BT_CLR_ALL  &none           &none              &none            &kp C_PLAY_PAUSE  &none         &none
+&none  &none         &none         &none         &none           &none           &none              &none            &none             &none         &none          &none
+                                   &none         &none           &none           &none              &none            &none
             >;
         };
     };
