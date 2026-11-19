@@ -30,7 +30,7 @@ layers:
     - {t: ▽, type: trans}
     - {type: held}
     - {t: ▽, type: trans}
-    - ADJ
+    - ''
     - ''
     - {t: ▽, type: trans}
   SYM:
@@ -47,7 +47,7 @@ layers:
     - ''
   ADJ:
   - ['', '', '', '', '', '&close', F9, F10, F11, F12]
-  - ['', '', '', '', '', '&show_desktop', F5, F6, F7, F8]
+  - ['', LEFT ALT, LEFT CONTROL, LEFT SHIFT, LEFT META, '&show_desktop', F5, F6, F7, F8]
   - ['', '&sys_reset', '', '', '', '', '&screenshot', F1, F2, F3]
   - - F4
     - ''
@@ -63,13 +63,13 @@ layers:
     - {t: BT, h: '2'}
     - {t: BT, h: '3'}
     - {t: BT, h: '4'}
-    - VOLUME DOWN
     - VOLUME UP
-    - MUTE
-    - BRI UP
-    - BRI DEC
-  - ['', '', BT CLR, BT CLR ALL, '', '', '', PLAY PAUSE, '', '']
-  - ['', '', '', '', '', '', '', '', '', '']
+    - PLAY PAUSE
+    - BRIGHTNESS INC
+    - ''
+    - ''
+  - ['', '', '', '', '', VOLUME DOWN, '', BRIGHTNESS DEC, '', '']
+  - [BT CLR, '', '', '', '', '', MUTE, '', '', '']
   - - ''
     - ''
     - ''
