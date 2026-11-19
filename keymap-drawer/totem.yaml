@@ -15,7 +15,7 @@ layers:
   - ['&td_caps', Z, X, C, V, B, N, M, ',', .]
   - - '&tmuxmode'
     - '&tmuxselect'
-    - DEL
+    - {t: DEL, h: ADJ}
     - {t: TAB, h: NAVI}
     - SPACE
     - RET
@@ -51,10 +51,10 @@ layers:
   - ['', '&sys_reset', '', '', '', '', '&screenshot', F1, F2, F3]
   - - F4
     - ''
-    - {t: ▽, type: trans}
     - {type: held}
     - {t: ▽, type: trans}
-    - {type: held}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
   BT:
@@ -78,7 +78,3 @@ layers:
     - ''
     - ''
     - {type: held}
-combos:
-- p: [33, 36]
-  k: ADJ
-  l: [BASE, NAVI, SYM, BT]
