@@ -31,7 +31,7 @@ layers:
     - {type: held}
     - {t: ▽, type: trans}
     - ADJ
-    - LSHFT
+    - ''
     - {t: ▽, type: trans}
   SYM:
   - ['~', ., '=', <, '>', \, '7', '8', '9', '!']
@@ -46,8 +46,8 @@ layers:
     - {type: held}
     - ''
   ADJ:
-  - ['', '', '&delete_after_cursor', '', '', '&close', F9, F10, F11, F12]
-  - ['', '', '&delete_before_cursor', '', '', '&show_desktop', F5, F6, F7, F8]
+  - ['', '', '', '', '', '&close', F9, F10, F11, F12]
+  - ['', '', '', '', '', '&show_desktop', F5, F6, F7, F8]
   - ['', '&sys_reset', '', '', '', '', '&screenshot', F1, F2, F3]
   - - F4
     - ''
