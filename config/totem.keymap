@@ -177,9 +177,7 @@
         // ▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄
 
         base_layer {
-
             label = "BASE";
-
             bindings = <
           &kp Q          &kp W        &kp E         &kp R         &kp T               &kp Y              &kp U         &kp I         &kp O             &kp P
           &hml DELETE A  &hml LALT S  &hml LCTRL D  &hml LSHFT F  &hml LEFT_META G    &hmr RIGHT_META H  &hmr RSHFT J  &hmr RCTRL K  &hmr RIGHT_ALT L  &kp BACKSPACE
@@ -191,42 +189,36 @@
         // ▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄
 
         nav_layer {
-
             label = "NAVI";
-
             bindings = <
         &tup     &kp PAGE_UP    &kp UP    &msc SCRL_LEFT  &kp LBRC    &kp RBRC  &msc SCRL_RIGHT  &mmv MOVE_UP    &msc SCRL_UP     &tup
         &tright  &kp LEFT       &kp DOWN  &kp RIGHT       &kp LBKT    &kp RBKT  &mmv MOVE_LEFT   &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &tleft
 &tleft  &tdown   &kp PAGE_DOWN  &mkp MB4  &mkp LCLK       &kp LPAR    &kp RPAR  &mkp RCLK        &mkp MB5        &msc SCRL_DOWN   &tdown  &tright
-                                &none    &none          &none      &none     &none            &none
+                                &none     &none           &none       &none     &none            &none
             >;
         };
 
         // ▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄
 
         sim_layer {
-
             label = "SYM";
-
             bindings = <
-            &kp TILDE     &kp PERIOD     &kp EQUAL     &kp LESS_THAN          &kp GREATER_THAN            &kp BACKSLASH  &kp N7  &kp N8  &kp N9  &kp EXCLAMATION
-            &kp ASTERISK  &kp PLUS       &kp MINUS     &kp DOUBLE_QUOTES      &kp SQT                     &kp SLASH      &kp N4  &kp N5  &kp N6  &kp N0
-&kp DOLLAR  &kp QUESTION  &kp AMPERSAND  &kp PERCENT   &kp SEMICOLON          &kp COLON                   &kp PIPE       &kp N1  &kp N2  &kp N3  &kp HASH         &kp AT_SIGN
-                                         &kp GRAVE     &kp UNDER             &kp COMMA              &none          &none   &none
+            &kp TILDE     &kp PERIOD     &kp EQUAL    &kp LESS_THAN      &kp GREATER_THAN    &kp BACKSLASH  &kp N7  &kp N8  &kp N9  &kp EXCLAMATION
+            &kp ASTERISK  &kp PLUS       &kp MINUS    &kp DOUBLE_QUOTES  &kp SQT             &kp SLASH      &kp N4  &kp N5  &kp N6  &kp N0
+&kp DOLLAR  &kp QUESTION  &kp AMPERSAND  &kp PERCENT  &kp SEMICOLON      &kp COLON           &kp PIPE       &kp N1  &kp N2  &kp N3  &kp HASH         &kp AT_SIGN
+                                         &kp GRAVE    &kp UNDER          &kp COMMA           &none          &none   &none
             >;
         };
 
         // ▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄
 
-        adjust_layer {
-
-            label = "ADJ";
-
+        function_layer {
+            label = "fn";
             bindings = <
-       &kp CARET   &none         &none             &none           &none            &close         &kp F9  &kp F10  &kp F11  &kp F12
-       &none       &kp LEFT_ALT  &kp LEFT_CONTROL  &kp LEFT_SHIFT  &kp LEFT_META    &show_desktop  &kp F5  &kp F6   &kp F7   &kp F8
+       &none  &none         &none             &none           &none            &close         &kp F9  &kp F10  &kp F11  &kp F12
+       &none  &kp LEFT_ALT  &kp LEFT_CONTROL  &kp LEFT_SHIFT  &kp LEFT_META    &show_desktop  &kp F5  &kp F6   &kp F7   &kp F8
 &none  &none  &none         &none             &none           &none            &screenshot    &kp F1  &kp F2   &kp F3   &kp F4   &none
-                                 &none            &none          &none           &kp DELETE     &kp BACKSPACE  &none
+                            &none             &none           &none            &none          &none   &none
             >;
         };
 
@@ -234,9 +226,7 @@
         // ▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄
 
         bt_layer {
-
             label = "BT";
-
             bindings = <
             &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4    &kp C_VOLUME_UP    &kp C_PLAY_PAUSE  &kp C_BRIGHTNESS_INC  &none  &none
             &none         &none         &none         &none         &none           &kp C_VOLUME_DOWN  &none             &kp C_BRIGHTNESS_DEC  &none  &none
