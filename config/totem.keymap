@@ -34,22 +34,7 @@
         compatible = "zmk,combos";
 
         // SYM: - + " -> DELETE.
-        combo_sym_delete: combo_sym_delete {
-            timeout-ms = <100>;
-            require-prior-idle-ms = <150>;
-            key-positions = <12 13>;
-            layers = <SYM>;
-            bindings = <&kp DELETE>;
-        };
-
         // SYM: 4 + 5 -> BACKSPACE.
-        combo_sym_backspace: combo_sym_backspace {
-            timeout-ms = <100>;
-            require-prior-idle-ms = <150>;
-            key-positions = <16 17>;
-            layers = <SYM>;
-            bindings = <&kp BACKSPACE>;
-        };
     };
 
     behaviors {
@@ -228,7 +213,7 @@
 
         // ▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄
 
-        sim_layer {
+        symbol_layer {
             label = "SYM";
             bindings = <
             &kp TILDE     &kp PERIOD     &kp EQUAL        &kp LESS_THAN      &kp GREATER_THAN    &kp BACKSLASH  &kp N7  &kp N8  &kp N9  &kp EXCLAMATION
