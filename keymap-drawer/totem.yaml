@@ -78,3 +78,10 @@ layers:
     - ''
     - ''
     - {type: held}
+combos:
+- p: [12, 13]
+  k: DELETE
+  l: [SYM]
+- p: [16, 17]
+  k: BACKSPACE
+  l: [SYM]
