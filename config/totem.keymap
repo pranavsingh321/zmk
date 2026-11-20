@@ -228,9 +228,9 @@
         function_layer {
             label = "fn";
             bindings = <
-       &kp F9   &kp F10  &kp F11  &kp F12  &none  &close       &kp N7  &kp N8  &kp N9  &none
-       &kp F5   &kp F6   &kp F7   &kp F8   &none  &show_desktop  &kp N4  &kp N5  &kp N6  &kp N0
-&none  &kp F1  &kp F2  &kp F3  &kp F4  &none  &screenshot    &kp N1  &kp N2  &kp N3  &none  &none
+       &kp F9   &kp F10  &kp F11  &kp F12  &kp LEFT_SHIFT  &kp ESCAPE  &kp N7  &kp N8  &kp N9  &none
+       &kp F5   &kp F6   &kp F7   &kp F8   &kp TAB  &kp DELETE  &kp N4  &kp N5  &kp N6  &kp N0
+&none  &kp F1  &kp F2  &kp F3  &kp F4  &kp SPACE  &none    &kp N1  &kp N2  &kp N3  &none  &screenshot
                             &none             &none           &none            &kp RIGHT_ALT  &kp RCTRL  &kp RIGHT_META
             >;
         };
