@@ -46,11 +46,11 @@ layers:
     - {type: held}
     - ''
   fn:
-  - [F9, F10, F11, F12, '', '&close', '7', '8', '9', '']
-  - [F5, F6, F7, F8, '', '&show_desktop', '4', '5', '6', '0']
-  - ['', F1, F2, F3, F4, '', '&screenshot', '1', '2', '3']
+  - [F9, F10, F11, F12, LEFT SHIFT, ESCAPE, '7', '8', '9', '']
+  - [F5, F6, F7, F8, TAB, DELETE, '4', '5', '6', '0']
+  - ['', F1, F2, F3, F4, SPACE, '', '1', '2', '3']
   - - ''
-    - ''
+    - '&screenshot'
     - {type: held}
     - ''
     - ''
