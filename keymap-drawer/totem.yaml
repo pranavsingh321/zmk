@@ -64,12 +64,12 @@ layers:
     - {t: BT, h: '3'}
     - {t: BT, h: '4'}
     - VOLUME UP
-    - PLAY PAUSE
+    - NEXT
     - BRIGHTNESS INC
     - ''
     - ''
-  - ['', '', '', '', '', VOLUME DOWN, '', BRIGHTNESS DEC, '', '']
-  - [BT CLR, '', '', '', '', '', MUTE, '', '', '']
+  - ['', '', '', '', '', VOLUME DOWN, PREVIOUS, BRIGHTNESS DEC, '', '']
+  - [BT CLR, '', '', '', '', '', MUTE, PLAY PAUSE, '', '']
   - - ''
     - ''
     - ''
