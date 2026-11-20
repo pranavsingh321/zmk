@@ -54,9 +54,9 @@ layers:
     - {type: held}
     - ''
     - ''
-    - ''
-    - ''
-    - ''
+    - RIGHT ALT
+    - RCTRL
+    - RIGHT META
   BT:
   - - {t: BT, h: '0'}
     - {t: BT, h: '1'}
