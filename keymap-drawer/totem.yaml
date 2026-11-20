@@ -2,7 +2,7 @@ layout: {zmk_keyboard: totem}
 layers:
   BASE:
   - [Q, W, E, R, T, Y, U, I, O, P]
-  - - {t: A, h: DELETE}
+  - - A
     - {t: S, h: LALT}
     - {t: D, h: LCTRL}
     - {t: F, h: LSHFT}
