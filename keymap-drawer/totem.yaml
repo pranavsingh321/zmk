@@ -15,7 +15,7 @@ layers:
   - ['&td_caps', Z, X, C, V, B, N, M, ',', .]
   - - '&tmuxmode'
     - '&tmuxselect'
-    - {t: DEL, h: fn}
+    - fn
     - {t: TAB, h: NAVI}
     - SPACE
     - RET
