@@ -79,9 +79,9 @@ layers:
     - ''
     - {type: held}
 combos:
-- p: [12, 13]
+- p: [23, 24]
   k: DELETE
-  l: [SYM]
-- p: [16, 17]
+  l: [BASE, SYM]
+- p: [27, 28]
   k: BACKSPACE
-  l: [SYM]
+  l: [BASE, SYM]
