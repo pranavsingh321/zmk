@@ -33,23 +33,21 @@
     combos {
         compatible = "zmk,combos";
 
-        // SYM: - + " -> DELETE.
-
+        // BASE/SYM: C + V -> DELETE.
         combo_sym_delete: combo_sym_delete {
             timeout-ms = <100>;
             require-prior-idle-ms = <150>;
-            key-positions = <12 13>;
-            layers = <SYM>;
+            key-positions = <23 24>;
+            layers = <BASE SYM>;
             bindings = <&kp DELETE>;
         };
 
-        // SYM: 4 + 5 -> BACKSPACE.
-
+        // BASE/SYM: M + , -> BACKSPACE.
         combo_sym_backspace: combo_sym_backspace {
             timeout-ms = <100>;
             require-prior-idle-ms = <150>;
-            key-positions = <16 17>;
-            layers = <SYM>;
+            key-positions = <27 28>;
+            layers = <BASE SYM>;
             bindings = <&kp BACKSPACE>;
         };
     };
