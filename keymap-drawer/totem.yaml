@@ -81,7 +81,7 @@ layers:
 combos:
 - p: [12, 13]
   k: DELETE
-  l: [BASE, SYM]
+  l: [SYM]
 - p: [16, 17]
   k: BACKSPACE
-  l: [BASE, SYM]
+  l: [SYM]
